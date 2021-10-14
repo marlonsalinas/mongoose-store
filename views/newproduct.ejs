@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mongoose Store</title>
+</head>
+<body>
+    <h3>Create Product</h3>
+    <form action='/products' method="post">
+        <div>
+            <label for="name">Product name</label>
+            <input type="text" name="name" />
+        </div>
+        <div>
+            <label for="description">Product description</label>
+            <input type="text" name="description" />
+        </div>
+        <div>
+            <label for="img">Product image URL</label>
+            <input type="text" name="img" />
+        </div>
+        <div>
+            <label for="price">Product price</label>
+            <input type="text" name="price" />
+        </div>
+        <div>
+            <label for="qty">Product quantity</label>
+            <input type="text" name='qty' />
+        </div>
+        <input type="submit" value="Create product" />
+    </form>
+    <a href="/products">Back to products</a>
+</body>
+</html>
